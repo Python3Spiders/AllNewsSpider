@@ -1,3 +1,7 @@
+# env
+
+** 必须是 python 3.6.6 64 bit windows **
+
 # intro
 
 新浪新闻，腾讯新闻，搜狐新闻，澎湃新闻。
