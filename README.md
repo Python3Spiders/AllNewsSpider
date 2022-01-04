@@ -1,6 +1,6 @@
 # env
 
-** 必须是 python 3.6.6 64 bit windows **
+**必须是 python 3.6.6 64 bit windows**
 
 # intro
 
