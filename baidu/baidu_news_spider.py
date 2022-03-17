@@ -124,7 +124,7 @@ def doSpider(keyword, sortBy = 'focus'):
 
     total = total.replace(',', '')
 
-    total = int(total[7:-1])
+    total = int(total[10:-1])
 
     pageNum = total // 10
 
