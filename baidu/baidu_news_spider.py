@@ -49,10 +49,10 @@ def dealHtml(html):
         summary = summary.xpath('string(.)').strip()
 
         # ./ 是直接下级，.// 是直接/间接下级
-        infos = result.xpath('.//div[@class="news-source"]')[0]
-        source, dateTime = infos.xpath(".//span[last()-1]/text()")[0], \
-                           infos.xpath(".//span[last()]/text()")[0]
+        infos = result.xpath('.//div[starts-with(@class,"news-source")]')[0]
+        source = infos.xpath(".//span/text()")[0]
 
+        dateTime = result.xpath('.//span[@class="c-color-gray2 c-font-normal c-gap-right-xsmall"]/text()')[0]
         dateTime = parseTime(dateTime)
 
         print('标题', title)
