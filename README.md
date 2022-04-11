@@ -1,6 +1,6 @@
 # env
 
-**必须是 python 3.6.6 64 bit windows**
+**必须是 python 3.6.6 64 bit windows/linux/mac**
 
 **如果要爬取纽约时报，则需要使用urllib3的1.25.11版本，否则代理可能出错**
 
